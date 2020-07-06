@@ -49,18 +49,20 @@
 }
 
 h1{
-    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p{
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+   
     letter-spacing: 3px;
 }
 
 .brandy{
     font-family: 'Caveat', cursive;
-    color:#414141;
+    letter-spacing: 3px;
     font-size:40px;
     text-decoration:underline ;
     color:white;
@@ -73,7 +75,13 @@ p{
 
 }
 
-.navi{
-    background-color: #222831;
-    color:white;
+
+.post-title{
+   font-size: 40px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.post-content{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
 }
