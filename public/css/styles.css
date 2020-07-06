@@ -11,8 +11,13 @@
     font-size: 20px;
     letter-spacing: 5px;
 }
+.navbar-nav  li a {
+    color:white !important;
+}
+
+
 .navbar-nav  li a:hover {
-    color: #222831 !important;
+    color:orange !important;
 }
 
 .footer-padding {
@@ -31,7 +36,7 @@
 
 .footer p {
 	margin-top: 25px;
-	font-size: 12px;
+	font-size: 20px;
   color: #fff;
 }
 
@@ -54,7 +59,7 @@ h1{
 }
 
 p{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
    
     letter-spacing: 3px;
@@ -63,9 +68,18 @@ p{
 .brandy{
     font-family: 'Caveat', cursive;
     letter-spacing: 3px;
-    font-size:40px;
+    font-size:60px;
     text-decoration:underline ;
-    color:white;
+    color:#BB9684 !important;
+}
+
+
+.brandy:hover{
+    font-family: 'Caveat', cursive;
+    letter-spacing: 3px;
+    font-size:60px;
+    text-decoration:underline ;
+    color:white !important;
 }
 
 .navitem{
@@ -78,10 +92,40 @@ p{
 
 .post-title{
    font-size: 40px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Anton', sans-serif;
 }
 
 .post-content{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 20px;
+}
+
+
+.navi{
+    background-color:rgb(0,0,0,0.8);
+}
+
+body{
+    background-image: url("background.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+.blur-head{
+    background-color: rgb(0,0,0,0.6);
+    color: azure;
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.blur-content{
+    background-color: rgb(0,0,0,0.6);
+    color: azure;
+    width: 100%;
+    padding: 20px;
+   
 }

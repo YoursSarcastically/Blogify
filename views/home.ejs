@@ -1,19 +1,28 @@
 
 <%- include('partials/header')-%>
 
+
+<div class="jumbotron-fluid blur-head">
+  
 <h1>Home</h1>
 
 <p><%= Homecontent  %> </p>
+</div>
+<br>
 
+<div class="jumbotron-fluid blur-head">
 
+  <%posts.forEach(function(post) { %>
+    <hr>
+      <h1><%= post.title %></h1>
+     <p> <%=post.content.substring(0,100)+" ..." %>
+    <a href="/posts/<%=post.title%> ">Read More </a>
+  </p> 
+      <%}); %>
+  
 
-<%posts.forEach(function(post) { %>
-  <hr>
-    <h1><%= post.title %></h1>
-   <p> <%=post.content.substring(0,100)+" ..." %>
-  <a href="/posts/<%=post.title%> ">Read More </a>
-</p> 
-    <%}); %>
+</div>
+
 
 
 
